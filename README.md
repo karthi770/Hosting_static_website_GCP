@@ -63,7 +63,6 @@ terraform apply
 >Run the above commands the bucket shall be created with an object in it.
 
 ![image](https://github.com/karthi770/Hosting-Wordpress-AWS/assets/102706119/b6ff0377-7f18-4c6d-8958-4cd5347a9efa)
-
 ## Cloud DNS
 
 ![image](https://github.com/karthi770/Hosting-Wordpress-AWS/assets/102706119/5de1eb64-07ed-4c49-9897-ee07c6dd633a)
@@ -71,6 +70,7 @@ terraform apply
 >Before creating a Zone, create a Domain name with Google Cloud domains which can be used here to in the domain name.
 >Load balancer -> Cloud DNS -> Create Zone
 
+![image](https://github.com/karthi770/Hosting_static_website_GCP/assets/102706119/898e15f7-2024-4cda-8f72-78b0b233f7a7)
 
 
 
