@@ -15,8 +15,8 @@
 
 Create a folder named 'infra' and add the files main.tf and provider.tf.
 
-```json 
-//provider.tf
+```python 
+#provider.tf
 provider "google" {
 	credentials = file(var.gcp_svc_key)
 	project = var.gcp_project
