@@ -64,13 +64,22 @@ terraform apply
 
 ![image](https://github.com/karthi770/Hosting-Wordpress-AWS/assets/102706119/b6ff0377-7f18-4c6d-8958-4cd5347a9efa)
 ## Cloud DNS
-
+(Option-1)
 ![image](https://github.com/karthi770/Hosting-Wordpress-AWS/assets/102706119/5de1eb64-07ed-4c49-9897-ee07c6dd633a)
 >[!note]
->Before creating a Zone, create a Domain name with Google Cloud domains which can be used here to in the domain name.
+>Option -1 
+>Before creating a Zone, create a Domain name with Google Cloud domains which can be used here in the domain name.
 >Load balancer -> Cloud DNS -> Create Zone
+>The option-1 can be used if we have a domain name from another domain name provider, we can create a subdomain and use it. Since I have google cloud domain, I have my DNS created automatically.
 
 ![image](https://github.com/karthi770/Hosting_static_website_GCP/assets/102706119/898e15f7-2024-4cda-8f72-78b0b233f7a7)
+![image](https://github.com/karthi770/Hosting_static_website_GCP/assets/102706119/929e972a-6b4e-46d6-aa52-fe99e0253dbd)
+>[!note]
+>Register the domain name
+
+![image](https://github.com/karthi770/Hosting_static_website_GCP/assets/102706119/0f4eba98-a31d-4f07-a4c7-27ee193d33de)
+
+![image](https://github.com/karthi770/Hosting_static_website_GCP/assets/102706119/d6d03dd3-388b-4f27-9efb-2e6c8d9fffec)
 
 
 
