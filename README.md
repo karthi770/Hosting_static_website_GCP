@@ -24,8 +24,8 @@ provider "google" {
 }
 ```
 
-```json
-//main.tf
+```python
+#main.tf
 	resource "google_storage_bucket" "website" {
     name = "ex-kar-web"
     location = "US"
@@ -33,8 +33,8 @@ provider "google" {
 ```
 
 ![image](https://github.com/karthi770/Hosting-Wordpress-AWS/assets/102706119/755f491a-2585-4dfb-ac86-59ff2b647b51)
-```json
-//variables.tf
+```python
+#variables.tf
 variable "gcp_svc_key"{
 
 }
@@ -45,8 +45,8 @@ variable "gcp_region" {
 }
 ```
 
-```json
-//terraform.tfvars
+```python
+#terraform.tfvars
 gcp_svc_key = "../genuine-ether-412514-d49a65bc8faa.json"
 
 gcp_project = "genuine-ether-412514"
@@ -54,7 +54,7 @@ gcp_project = "genuine-ether-412514"
 gcp_region = "us-east1"
 ```
 
-```json
+```python
 terraform init
 terraform plan
 terraform apply
